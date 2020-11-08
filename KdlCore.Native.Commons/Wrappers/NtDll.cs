@@ -4,10 +4,10 @@ using System.Runtime.InteropServices;
 
 namespace KdlCore.Native.Commons.Wrappers
 {
-    internal class NtDll
+    public class NtDll
     {
         [DllImport("ntdll.dll")]
-        internal static extern NtStatus NtQuerySystemInformation(
+        public static extern NtStatus NtQuerySystemInformation(
             [In] SystemInformationClass systemInformationClass,
             IntPtr systemInformation,
             [In] int systemInformationLength,

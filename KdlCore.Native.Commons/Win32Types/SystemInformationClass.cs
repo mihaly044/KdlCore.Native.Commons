@@ -1,6 +1,6 @@
 ﻿namespace KdlCore.Native.Commons.Win32Types
 {
-    internal enum SystemInformationClass
+    public enum SystemInformationClass
     {
         SystemBasicInformation,
         SystemProcessorInformation,
